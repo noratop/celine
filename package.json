@@ -1,0 +1,24 @@
+{
+  "name": "celine",
+  "version": "1.0.0",
+  "description": "Celine Larbaletrier portfolio",
+  "main": "index.js",
+  "repository": "git@github.com:noratop/celine.git",
+  "author": "Nora Top <top.nora@gmail.com>",
+  "dependencies": {
+    "autoprefixer": "^6.6.1",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-gh-pages": "^2.0.0",
+    "grunt-jekyll": "^0.4.4",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-webpack": "^1.0.18",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
