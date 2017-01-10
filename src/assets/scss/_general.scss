@@ -1,0 +1,18 @@
+// Custom Style
+body {
+  height: 100vh;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  color: $bright;
+  //display: flex;
+  //flex-flow: column;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+}

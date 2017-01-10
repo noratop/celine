@@ -1,0 +1,93 @@
+{
+  "list": [
+    {
+      "title": "Salesfloor front-end app",
+      "link": "http://noratop.github.io/salesfloor-challenge/",
+      "screenshot":"salesfloor1.png",
+      "description":
+        {
+          "paragraph": [
+            "Small front-end web app built for the Salesfloor technical test. Finds restaurants around a given location."
+            ],
+          "list":[
+            "React",
+            "Redux",
+            "Google Map",
+            "Google Places",
+            "Google Reverse Geocoding"
+            ]
+        },
+      "code":"https://github.com/noratop/salesfloor-challenge"
+    },
+    {
+      "title": "DecodeMTL Wordpress Theme",
+      "screenshot":"decodemtl1.png",
+      "description":
+        {
+          "paragraph": [
+            "DecodeMTL's website migration from Jekyll to Wordpress, including Advanced Custom Fields Pro and WPML Multilanguage plugins."
+            ],
+          "list":[
+            "WordPress Theme",
+            "Advanced Custom Fields",
+            "WPML Multilanguage"
+            ]
+        },
+      "code":""
+    },
+    {
+      "title": "Busbud front-end app",
+      "link": "http://noratop.github.io/coding-challenge-frontend-b",
+      "screenshot":"busbud2.png",
+      "description":
+        {
+          "paragraph": [
+            "Small front-end web app built for the Busbud coding challenge. Lists bus tickets with multilanguage and sorting results support."
+            ],
+          "list":[
+            "React",
+            "Redux",
+            "React Router"
+            ]
+        },
+      "code":"https://github.com/noratop/coding-challenge-frontend-b"
+    },
+    {
+      "title": "The Weather Sequencer",
+      "link":"http://www.weathersequencer.xyz/",
+      "screenshot":"weathersequencer02.png",
+      "description":
+        {
+          "paragraph": [
+            "A single-page application that puts together music and weather. It lets you create and share melodies that will be affected by the local weather.",
+            "This is my final project from DecodeMTL, a javascript-based coding bootcamp."
+          ],
+          "list":[
+            "Web Audio API (Tone.js)",
+            "Canvas (NexusUI)",
+            "Forecast.io weather API",
+            "Google Places",
+            "Google Reverse Geocoding",
+            "jQuery"
+          ]
+        },
+      "code":"https://github.com/noratop/weather-sequencer-app"
+    },
+    {
+      "title": "A Wild Edge",
+      "link": "http://awildedge.com/",
+      "screenshot":"awildedge.png",
+      "description":
+        {
+          "paragraph": [
+            "A Wild Edge is a photography project by Celine Larbaletrier."
+            ],
+          "list":[
+            "Photography Project",
+            "Graphic design"
+            ]
+        },
+      "code":""
+    },
+  ]
+}

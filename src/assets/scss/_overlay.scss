@@ -1,0 +1,17 @@
+.overlay {
+  //padding: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width:100vw;
+  height: 100vh;
+  background: url('../img/celine.jpg') no-repeat center fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.75);
+  align-items: center; display: flex; justify-content: center;
+  cursor: pointer;
+
+  //img {
+  //  width:100%;
+  //}
+}

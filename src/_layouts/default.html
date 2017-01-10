@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta property="og:image" content="http://nora.im/assets/img/portfolio_og.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_newlines | xml_escape }}{% else %}{{ site.description | strip_newlines | xml_escape}}{% endif %}">
+    <title>{% if page.title %}{{ page.title }}{% else %}Céline Larbalétrier | Fashion maker{% endif %}</title>
+    <link rel="icon" type="image/png" sizes="any" href="/assets/img/noratop_favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,600,900|Montserrat:700|Open+Sans:800|Poppins:700|Raleway:800|Roboto:900" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
+<body class="{{page.bodyClass}}">
+
+    {{content}}
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./assets/js/main-bundle.js"></script>
+</body>
+</html>
