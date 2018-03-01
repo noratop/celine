@@ -237,7 +237,8 @@ body {
 
 .page {
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  padding-top: 200px; }
 
 header {
   position: fixed;
@@ -248,52 +249,58 @@ header {
   align-items: flex-start; }
   header.bright .line {
     border-bottom: 5px solid floralwhite; }
-  header.bright .logo {
-    border: 5px solid floralwhite; }
-    header.bright .logo svg {
-      fill: floralwhite; }
+  header.bright .logo svg {
+    fill: floralwhite; }
   header.bright .menu ul:first-of-type {
     border-bottom: 5px solid floralwhite; }
   header.bright .menu li {
-    color: floralwhite;
     border-right: 5px solid floralwhite;
     border-left: 5px solid floralwhite; }
+    header.bright .menu li a {
+      color: floralwhite; }
   header.bright .menu ul.top li {
     border-top: 5px solid floralwhite; }
   header.bright .menu ul.bottom li {
     border-bottom: 5px solid floralwhite; }
   header.bright .menu li:not(.empty):hover {
-    background-color: floralwhite;
-    color: #232323; }
+    background-color: floralwhite; }
+    header.bright .menu li:not(.empty):hover a {
+      color: #232323; }
   header.dark .line {
     border-bottom: 5px solid #232323; }
-  header.dark .logo {
-    border: 5px solid #232323; }
-    header.dark .logo svg {
-      fill: #232323; }
+  header.dark .logo svg {
+    fill: #232323; }
   header.dark .menu ul:first-of-type {
     border-bottom: 5px solid #232323; }
   header.dark .menu li {
-    color: #232323;
     border-right: 5px solid #232323;
     border-left: 5px solid #232323; }
+    header.dark .menu li a {
+      color: #232323; }
   header.dark .menu ul.top li {
     border-top: 5px solid #232323; }
   header.dark .menu ul.bottom li {
     border-bottom: 5px solid #232323; }
   header.dark .menu li:not(.empty):hover {
-    background-color: #232323;
-    color: floralwhite; }
+    background-color: #232323; }
+    header.dark .menu li:not(.empty):hover a {
+      color: floralwhite; }
   header .line {
     height: 70px;
     width: 30px; }
+    header .line.clear {
+      opacity: 0; }
   header .flex {
     flex: 1; }
-  header .logo svg {
-    height: 150px;
-    width: 150px;
-    padding: 10px;
-    animation: flash 4s 4s linear infinite; }
+  header .logo {
+    height: 130px;
+    width: 180px;
+    display: flex;
+    align-items: center; }
+    header .logo svg {
+      height: auto;
+      width: 100%;
+      padding: 10px; }
   header .menu ul {
     padding: 0;
     margin: 0;
@@ -306,6 +313,7 @@ header {
       align-items: center;
       text-align: center;
       font-family: Montserrat, Lato, sans-serif;
+      font-weight: 700;
       text-transform: uppercase;
       cursor: pointer; }
       header .menu ul li.empty {
@@ -316,8 +324,19 @@ header {
       width: 85px; }
 
 #about {
-  background: url("../img/background-beach.jpg") no-repeat;
-  background-size: cover; }
+  background: url("../img/IMG_3268.jpg") bottom no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#portfolio {
+  background: url("../img/gpnovprp0s8-saksham-gangwar.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#instagram {
+  background: url("../img/vlbcgvydrrs-joel-peel.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 #home {
   background: url("../img/jr4zf-rieji-andrew-ridley.jpg") no-repeat;

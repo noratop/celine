@@ -1,16 +1,18 @@
 /**
  * Created by noratop on 2017-01-08.
  */
-// var Instafeed = require('instafeed.js');
-//
-// var userFeed = new Instafeed({
-//     get: 'tagged',
-//     tagName: 'imback',
-//     accessToken: '741673670.e75f8b0.16f0e85373544f1f8510038115a0f64a'
-// });
-// userFeed.run();
-//
-// console.log(userFeed);
+var Instafeed = require('instafeed.js');
+
+var userFeed = new Instafeed({
+    get: 'user',
+    tagName: 'imback',
+    userId: '992072343',
+  resolution: 'low_resolution',
+    accessToken: '741673670.e75f8b0.16f0e85373544f1f8510038115a0f64a'
+});
+userFeed.run();
+
+console.log(userFeed);
 
 // var $aboutMe = $('#aboutme');
 //
@@ -38,16 +40,24 @@ $.fn.isOnScreen = function() {
     var bounds = {};
     bounds.top = this.offset().top;
     bounds.bottom = bounds.top + this.outerHeight();
-    return ((bounds.top === viewport.top) && (bounds.bottom === viewport.bottom));
+    return ((bounds.top < viewport.top + 30) && (bounds.bottom > viewport.bottom - 30));
 };
 
 var $window = $(window);
 var $home = $('#home');
 var $about = $('#about');
+var $portfolio = $('#portfolio');
+var $instagram = $('#instagram');
 $window.on("scroll load", function (){
-  if ($about.isOnScreen()) {
+  if ($portfolio.isOnScreen() || $instagram.isOnScreen()) {
     $header.addClass('dark');
   } else {
     $header.removeClass('dark');
+  }
+
+  if ($about.isOnScreen()) {
+    $('.line').addClass('clear');
+  } else {
+    $('.line').removeClass('clear');
   }
 });
